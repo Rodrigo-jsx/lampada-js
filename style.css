@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+   font-family: 'Poppins', serif;
+}
+header,.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   min-height: 30vh;
+}
+#imagem-lampada{
+   margin-bottom: 22px;
+}
+h1{
+   margin-top: 130px;
+}
+#botoes{
+   margin-top: 10px;
+}
+button{
+   cursor: pointer;
+   outline: none;
+   border-color:#EAAB00;
+   background-color: #EAAB00;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   border-radius: 45px;
+
+}
